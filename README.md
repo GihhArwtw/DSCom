@@ -25,34 +25,7 @@ Randomly generate **`v`** only or **`W`** only is also accpetable by setting `v_
 
 <br/>
 
-# DSCom: Data-Driven Self-Adaptive Community-Based Influence Maximization Framework
-DSCom for Influence Maximization. 
-
-The main contribution of our work is to extend the original Influence Maximization problem to a relaxed one, with diffusion model unknown.
-
 <br/>
-
-## Diffusion Dataset Generation
-
-Use `diffusion_gen.py` to generate diffusion dataset. An example is given below. 
-
-```cmd
-python diffusion_gen.py --name PIC_test --random_seed 20220812 --model PIC --directed False --num_chains 2500 --scalar 10 --offset -8
-```
-
-To use a manually-designed PIC diffusion model, you may use the following instruction.
-
-```cmd
-python diffusion_gen.py --name PIC_test --random_seed 20220812 --model PIC --directed False --num_chains 2500 --v_isRandom False --W_isRandom False --scalar 10 --offset -8
-```
-
-Note that in this case, **manually-designed PIC parameters `v` and `W` must be given in the file `PIC_para.py`**.
-
-Randomly generate **`v`** only or **`W`** only is also accpetable by setting `v_isRandom` or `W_isRandom` to `True`.
-
-<br/>
-
----
 
 In fact, more options are given, i.e. `dir`, `dataset_node`, `dataset_edge`, `window_len`, `v_len`. Please check the help section of the source code `diffusion_gen.py` for their meanings.
 
