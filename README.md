@@ -6,11 +6,8 @@ The main contribution of our work is to extend the original Influence Maximizati
 
 
 ## 1. Diffusion Dataset Generation
-A simulation of the influence spread in the reality. A diffusion dataset will be generated based on the diffusion model given or generated randomly.
 
-Use `diffusion_gen.py` to generate diffusion dataset.
-
-An example is given below. 
+Use `diffusion_gen.py` to generate diffusion dataset. An example is given below. 
 
 ```cmd
 python diffusion_gen.py --name PIC_test --random_seed 20220812 --model PIC --directed False --num_chains 2500 --scalar 10 --offset -8
@@ -26,11 +23,15 @@ Note that in this case, **manually-designed PIC parameters `v` and `W` must be g
 
 Randomly generate `**v**` only or `**W**` only is also accpetable by setting `v_isRandom` or `W_isRandom` to `True`.
 
+
+
 -------------------------------
+
+
 
 In fact, more options are given, i.e. `dir`, `dataset_node`, `dataset_edge`, `window_len`, `v_len`. Please check the help section of the source code `diffusion_gen.py` for their meanings.
 
-
+-------------------------------
 
 **NOTES**:
 1. For PIC diffusion models, note that `v_len` is also an parameter of a PIC model.
