@@ -3,7 +3,7 @@ DSCom for Influence Maximization.
 
 The main contribution of our work is to extend the original Influence Maximization problem to a relaxed one, with diffusion model unknown.
 
-
+`
 
 ## Diffusion Dataset Generation
 
