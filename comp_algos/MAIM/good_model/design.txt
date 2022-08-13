@@ -1,0 +1,6 @@
+if g[w]["On"] <= -IC_ITERATION * 1.2:
+    coll+= 1
+if g[w]["On"] <= -IC_ITERATION * 0.5 and g[w]["On"] >= -IC_ITERATION*:
+    inf += 1
+if g[w]["On"] >= -IC_ITERATION * 0.5 and g[w]["On"] <= 0:
+    touch += 1
