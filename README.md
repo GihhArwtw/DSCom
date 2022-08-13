@@ -31,14 +31,13 @@ Randomly generate `**v**` only or `**W**` only is also accpetable by setting `v_
 
 In fact, more options are given, i.e. `dir`, `dataset_node`, `dataset_edge`, `window_len`, `v_len`. Please check the help section of the source code `diffusion_gen.py` for their meanings.
 
--------------------------------
 
 **NOTES**:
 1. For PIC diffusion models, note that `v_len` is also an parameter of a PIC model.
 2. When diffusion model is set to `IC` or `LT`, we recommend to use a larger `num_chains`. Our model need sufficient data to perform better on these two models.
 3. When diffusion model is set to `PIC` and you want to generate a PIC diffusion model randomly, please check the file `[dir]/[name]/tmp/tmp_weighted_edges.txt`. It is possible that the weights of egdes in random diffusion model generated are all '0's or all '1's. If such occasion happens, please adjust the `scalar` and `offset`.
 
-
+================================
 
 ## 2. DSCom Model Definition and Training
 
