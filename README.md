@@ -106,9 +106,9 @@ Please check their original paper [Multiple Agents Reinforcement Learning Based 
 
 ------------------------------------
 
-## Comparisons
+## Evaluations
 
-You may use the following instruction to compare the results of DSCom, IMM and SSA. Unfortunately, the results given by MAIM need to be evaluated manually.
+You may use the following instruction to evaluate the results of DSCom, IMM and SSA.
 
 ```cmd
 python eval.py --name PIC_test --num_seeds 10
