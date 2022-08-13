@@ -102,7 +102,7 @@ python comp.py --name PIC_test --num_seeds 10 --IMM_eps 0.1 --IMM_l 3 --SSA_eps 
 ### MAIM
 
 Please check their original paper [Multiple Agents Reinforcement Learning Based Influence Maximization in Social Network Services
-](https://link.springer.com/chapter/10.1007/978-3-030-91431-8_27). Their source code is given at 
+](https://link.springer.com/chapter/10.1007/978-3-030-91431-8_27).
 
 ------------------------------------
 
