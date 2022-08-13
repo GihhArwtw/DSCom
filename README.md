@@ -21,7 +21,7 @@ python diffusion_gen.py --name PIC_test --random_seed 20220812 --model PIC --dir
 
 Note that in this case, **manually-designed PIC parameters `v` and `W` must be given in the file `PIC_para.py`**.
 
-Randomly generate `**v**` only or `**W**` only is also accpetable by setting `v_isRandom` or `W_isRandom` to `True`.
+Randomly generate **`v`** only or **`W`** only is also accpetable by setting `v_isRandom` or `W_isRandom` to `True`.
 
 
 
