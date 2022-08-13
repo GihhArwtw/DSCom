@@ -108,7 +108,7 @@ Please check their original paper [Multiple Agents Reinforcement Learning Based 
 
 ## Evaluations
 
-You may use the following instruction to evaluate the results of DSCom, IMM and SSA.
+You may use the following instruction to evaluate the results.
 
 ```cmd
 python eval.py --name PIC_test --num_seeds 10
